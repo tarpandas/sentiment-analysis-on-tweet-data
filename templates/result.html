@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Result
+        </title>
+    </head>
+    <body>
+        {%if prediction == 0%}
+		<div class="output">
+			<h1>Semantic Negative</h1>
+			<a href="home.html">Return</a>
+		</div>
+		{%endif}
+		{%if prediction == 4%}
+		<div class="output">
+			<h1>Semantic Positive</h1>
+			<a href="home.html">Return</a>
+		</div>
+		{%endif}
+    </body>
+</html>
